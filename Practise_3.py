@@ -38,11 +38,11 @@ def ex3 ():
     print('Введите второе число')
     num2 = input()
     try:
-        sum = int(num1) + int(num2)
+        amount = int(num1) + int(num2)
     except ValueError:
         print("Введенные значения не коректны")
     else:
-        print(sum)
+        print(amount)
 #Задание №4
 def ex4 ():
     print("Для хранения текущего количества студентов в группе лучше всего подходит переменная с типом данных float \n"
@@ -58,10 +58,10 @@ def ex5 ():
     print(unique_items)
 #Задание №6
 def ex6 ():
-    name = input("Ваше имя:")
+    name = input("Введите вуаше имя:")
     age_str = input("Ваш возраст:")
 
-print("Введите номер задания")
+print("Введите номер задания: ")
 exchoise = int(input())
 match exchoise:
     case 1:
