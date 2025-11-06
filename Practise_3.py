@@ -8,6 +8,7 @@ f = (4, 5, 6)  #tuple
 g = {"name": "Alice", "age": 30}  #Mapping
 h = {7, 8, 9}  #
 i = None  #SpecialType
+print("Задание №1")
 print(" переменная a это -", type(a), "\n", "переменная b это -", type(b), "\n",
       "переменная c это -", type(c), "\n", "переменная d это -", type(d), "\n",
       "переменная e это -", type(e), "\n", "переменная f это -", type(f), "\n",
@@ -15,6 +16,7 @@ print(" переменная a это -", type(a), "\n", "переменная b
       "переменная i это -", type(i), "\n")
 
 #Задание №2
+print("Задание №2")
 my_list = [1, 2, 3]
 print(my_list)
 my_list[0] = 100
@@ -28,33 +30,46 @@ print(my_typle)
 my_string = "cat"
 print(my_string)
 #my_string[0] = 'b'
-print(my_string)
+print(my_string,"\n")
 
 #Задание №3
-print('Введите первое число')
+print("Задание №3")
+print('Введите первое число:')
 num1 = input()
-print('Введите второе число')
+print('Введите второе число:')
 num2 = input()
 try:
     amount = int(num1) + int(num2)
 except ValueError:
-    print("Введенные значения не коректны")
+    print("Введенные значения не коректны \n")
 else:
-    print(amount)
+    print(amount,"\n")
 
 #Задание №4
+print("Задание №4")
 print("Для хранения текущего количества студентов в группе лучше всего подходит переменная с типом данных float \n"
           "т.к ")
 
 #Задание №5
+print("Задание №5")
 shopping_list = ["Колбаса", "Курица", "Вишневый сок", "Картошка"]
 print(shopping_list)
 shopping_list.append("Лук")
 print(shopping_list)
 print(len(shopping_list))
 unique_items = {"Колбаса", "Курица", "Вишневый сок", "Картошка", "Лук"}
-print(unique_items)
+print(unique_items, "\n")
 
 #Задание №6
+print("Задание №6")
 name = input("Введите ваше имя:")
 age_str = input("Ваш возраст:")
+subjrcts_str = input("Ввведите любимые предметы (через запятую):")
+subjrcts_str = subjrcts_str.split(",")
+print("="*30)
+print("АНКЕТА СТУДЕНТА")
+print("="*30)
+print("Имя:",name)
+print("Возраст:",age_str)
+print(subjrcts_str)
+print("="*30)
