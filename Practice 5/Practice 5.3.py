@@ -18,5 +18,5 @@ def partyclubcheck (age, document, membership):
     else: check = "Вход запрещен"
     print(check)
     return check
-print("Фейсконтроль+itqcrjynhjkm")
+print("Фейсконтроль")
 partyclubcheck(int(input("Введите вас возраст: ")), str(input("Введите, есть ли у вас документ, подтверждающий личность(Да/Нет): ")), str(input("Введите, есть ли у вас членство в клубе (Да/Нет): ")))
