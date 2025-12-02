@@ -11,7 +11,7 @@ elif mark>=75:
 elif mark>=60:
     print("Ваша оценка 3 (удовлетворительно)\n")
 elif mark<60:
-    print("Ваша оценка 2 (неудовлетворителuukujukpiьно)\n")
+    print("Ваша оценка 2 (неудовлетворительно)\n")
 
 def partyclubcheck (age, document, membership):
     if (document == "Да" and age>=18) or (membership == "Да"):check = "Проходите"
