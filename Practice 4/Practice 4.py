@@ -48,3 +48,6 @@ print(f"Значение выражения sin x+cos x+tg^2 при заданн
 
 ### Task 7
 print("Task 7")
+sit_number=int(input("Введите номер места: "))
+coope_number = math.ceil(sit_number/4)
+print(f"Номер купе: {coope_number}\n")
