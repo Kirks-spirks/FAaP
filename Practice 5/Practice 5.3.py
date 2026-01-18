@@ -1,4 +1,3 @@
-
 print("Перевод из 100-бальной в 5-бальную шкалу оценивания")
 mark = int(input("Введите свой балл:"))
 
@@ -14,9 +13,17 @@ elif mark<60:
     print("Ваша оценка 2 (неудовлетворительно)\n")
 
 def partyclubcheck (age, document, membership):
+    """
+    Реализует фейсконтроль.
+    :param age (float): Возраст проверяемого.
+    :param document (boolean): Показывает наличие или отсутвие документа подтверждающего личность.
+    :param membership (boolean): Показывает наличие или отсутвие документа о членстве в клубе.
+    """
     if (document == "Да" and age>=18) or (membership == "Да"):check = "Проходите"
     else: check = "Вход запрещен"
     print(check)
     return check
+
 print("Фейсконтроль")
 partyclubcheck(int(input("Введите вас возраст: ")), str(input("Введите, есть ли у вас документ, подтверждающий личность(Да/Нет): ")), str(input("Введите, есть ли у вас членство в клубе (Да/Нет): ")))
+help(partyclubcheck)
