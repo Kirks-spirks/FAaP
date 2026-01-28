@@ -70,9 +70,7 @@ print("Task 6")
 name = input("Ваше имя: ")
 age_str = input("Ваш возраст: ")
 subjects_str = input("Любимые предметы (через запятую): ")
-
 age_str = int(age_str)
-
 student = {subjects_str}
 
 print("\n=" * 30)
